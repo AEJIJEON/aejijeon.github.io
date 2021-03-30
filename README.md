@@ -1,3 +1,3 @@
 # aejijeon.github.io
 
-my gitgub page
+my github page
