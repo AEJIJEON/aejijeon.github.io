@@ -15,7 +15,7 @@ useReducer 훅에 대해서 간단히 알아보자.
 
 ### 사용법
 
-```javascript
+```jsx
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
@@ -35,7 +35,7 @@ value: 'jeonaeji@gist.ac.kr'
 
 - reducer: 현재 상태(최신 상태)와 액션 객체를 가지고 새로운 상태를 return 해주는 함수이다.
 
-```javascript
+```jsx
 function reducer(state, action) {
   // 예시
   const { count, step } = state;
@@ -51,7 +51,7 @@ function reducer(state, action) {
 
 - initialState: 초기 state 값(initialization)
 
-```javascript
+```jsx
 const initialState = {
   count: 0,
   step: 1,
@@ -70,7 +70,7 @@ const initialState = {
 
   **code 1**
 
-```javascript
+```jsx
 // useReducer hook을 사용하지 않은 코드
 function Counter() {
 const [count, setCount] = useState(0);
@@ -94,7 +94,7 @@ onChangeonChange={e => setStep(Number(e.target.value))} />
 
 **code 2**
 
-```javascript
+```jsx
 // useReducer hook을 사용한 코드
 // interval을 처음 설정한 후에 컴포넌트가 사라지기 전까지 interval이 해지되지 않게된다.
 //컴포넌트 내부의 일부만 보여줌

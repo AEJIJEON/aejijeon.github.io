@@ -11,7 +11,7 @@ useEffect 사용 예시들과 함께 useEffect 훅에 대해서 알아보자.
 
 ### useEffect Syntax
 
-```javascript
+```jsx
 // takes two arguments
 useEffect(() => {
   // some code
@@ -27,7 +27,7 @@ callback 함수가 return 하는 함수는 cleanup 함수라고 부르는데 cle
 
 1.
 
-```javascript
+```jsx
 function Counter() {
   const [count, setCount] = useState(0);
 
@@ -54,7 +54,7 @@ useEffect에서 deps parameter를 생략하는 경우에는 컴포넌트가 리�
 
 첫 번째 렌더링의 경우에는(컴포넌트가 처음 화면에 그려질 때) 고유의 count 값은 0, useEffect의 callback 함수는 다음과 같다.
 
-```javascript
+```jsx
 () => {
   setTimeout(() => console.log(0), 1000);
 };
@@ -64,7 +64,7 @@ useEffect에서 deps parameter를 생략하는 경우에는 컴포넌트가 리�
 두 번째 렌더링의 경우에는(처음 버튼을 클릭하는 경우) count 값이 1로 update 되므로 고유의 count 값은 1이 되고 useEffect의 callback 함수는
 다음과 같다.
 
-```javascript
+```jsx
 () => {
   setTimeout(() => console.log(1), 1000);
 };
@@ -75,7 +75,7 @@ useEffect에서 deps parameter를 생략하는 경우에는 컴포넌트가 리�
 
 2.
 
-```javascript
+```jsx
 function User({ prop_value }) {
 
   useEffect(() => {
@@ -91,7 +91,7 @@ useEffect에서 deps parameter를 빈 배열로 넣어주면 useEffect의 callba
 
 3.
 
-```javascript
+```jsx
 function Counter() {
   const [count, setCount] = useState(0);
 
