@@ -209,15 +209,7 @@ styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이�
 ```jsx
 function App() {
   return (
-    <ThemeProvider
-    // theme={{
-    //   palette: {
-    //     blue: "#228be6",
-    //     gray: "#495057",
-    //     pink: "#f06595",
-    //   },
-    // }}
-    >
+    <ThemeProvider>
       <Button>Button</Button>
     </ThemeProvider>
   );
