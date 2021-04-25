@@ -207,25 +207,10 @@ export default App;
 
 styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이다. styled-components로 만드는 모든 컴포넌트에서 조회하여 사용할 수 있는 전역적인 값(theme)을 설정할 수 있다.
 
-- 예시
+- 예시  
+  ![1212](https://user-images.githubusercontent.com/59640337/115991297-bc0c4c00-a602-11eb-99a8-d0733a8087aa.png)
 
-```javascript
-function App() {
-  return (
-    <ThemeProvider
-      theme={{
-        palette: {
-          blue: "#228be6",
-          gray: "#495057",
-          pink: "#f06595",
-        },
-      }}
-    >
-      <Button>Button</Button>
-    </ThemeProvider>
-  );
-}
-```
+````
 
 ThemeProvider 컴포넌트의 theme props로 object를 전달하면 ThemeProvider 내부에 렌더링된 styled components에서 렌더링 된 조회하여 사용할 수 theme을theme prop가 내부에 prop이 렌더링 된 컴포넌트들에게 자동으로 전달됨) \*주의
 ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 여러 components를 렌더링 시 <></> 으로 감싸주어야 한다.
@@ -250,7 +235,7 @@ ${(props) => {
 }}
 /_ 기타 _/
 `;
-```
+````
 
 ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 AppBlock 과 Dialog components를 렌더링 시 <> 으로 감싸주어야 함
 
