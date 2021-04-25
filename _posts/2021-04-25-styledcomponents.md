@@ -209,7 +209,7 @@ styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이�
 
 - 예시
 
-```jsx
+```javascript
 function App() {
   return (
     <ThemeProvider
@@ -261,7 +261,7 @@ ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 
 
 다음 예시를 살펴보자.
 
-```javascript
+```jsx
 import styled from "styled-components";
 
 const FadeInButton = styled.button`
