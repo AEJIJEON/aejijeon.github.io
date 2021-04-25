@@ -31,7 +31,8 @@ function approachToVars(texts, ...values) {
   //파라미터의 rest 문법 사용
   console.log(texts, values); // [ 'blabla ', ' and ', ' blabla' ] [ 'first', 'second' ]
 }
-approachToVars`blabla ${var1} and ${var2} blabla`; // Template Literal를 이용하여 함수의 인자를 parsing(${} 부분 분리)하여 넘겨줌
+approachToVars`blabla ${var1} and ${var2} blabla`; // Template Literal를 이용하여
+// 함수의 인자를 parsing(${} 부분 분리)하여 넘겨줌
 ```
 
 ```javascript
@@ -92,15 +93,16 @@ export default App;
 styled.input, styled.button과 같이 html tag들을 가지고 스타일링할 수 있다.
 
 - 화면
-  ![circle](../assets/img/posts/원.png)
+  ![원](https://user-images.githubusercontent.com/59640337/115990955-042a6f00-a601-11eb-8dc7-be81b485686d.png)
 
 ## API Reference
 
 styled-components 라이브러리에서 제공하는 여러 api들을 살펴보자.
 
-1. styled
-   스타일을 입힐 tagname나 component를 인자로 전달(optional)하면 일반 css코드를 포함하는 Tagged Template literal을
-   받아서 StyledComponent를 만들어주는 함수를 return 해 줌
+#### 1. styled
+
+스타일을 입힐 tagname나 component를 인자로 전달(optional)하면 일반 css코드를 포함하는 Tagged Template literal을
+받아서 StyledComponent를 만들어주는 함수를 return 해 줌
 
 - 코드
 
@@ -136,11 +138,12 @@ export default App;
 ```
 
 - 화면
-  ![button](../assets/img/posts/버튼.png)
+  ![버튼](https://user-images.githubusercontent.com/59640337/115990956-055b9c00-a601-11eb-8b6c-2f7007ec1490.png)
 
-2. css
-   (case 1)styled 함수에서 구현한 css코드에서 ${}을 사용해서 props를 넘겨받아 스타일링하거나
-   (case 2)css코드를 분리하여 분리한 코드를 styled함수 내부에 ${}을 사용해서 다시 포함시킬 경우에 css function를 불러와서 사용
+#### 2. css
+
+(case 1)styled 함수에서 구현한 css코드에서 ${}을 사용해서 props를 넘겨받아 스타일링하거나
+(case 2)css코드를 분리하여 분리한 코드를 styled함수 내부에 ${}을 사용해서 다시 포함시킬 경우에 css function를 불러와서 사용
 
 - example of case 1
 
@@ -200,7 +203,7 @@ function App() {
 export default App;
 ```
 
-3. ThemeProvider
+#### 3. ThemeProvider
 
 styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이다. styled-components로 만드는 모든 컴포넌트에서 조회하여 사용할 수 있는 전역적인 값(theme)을 설정할 수 있다.
 
@@ -209,7 +212,15 @@ styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이�
 ```jsx
 function App() {
   return (
-    <ThemeProvider>
+    <ThemeProvider
+      theme={{
+        palette: {
+          blue: "#228be6",
+          gray: "#495057",
+          pink: "#f06595",
+        },
+      }}
+    >
       <Button>Button</Button>
     </ThemeProvider>
   );
@@ -217,7 +228,7 @@ function App() {
 ```
 
 ThemeProvider 컴포넌트의 theme props로 object를 전달하면 ThemeProvider 내부에 렌더링된 styled components에서 렌더링 된 조회하여 사용할 수 theme을theme prop가 내부에 prop이 렌더링 된 컴포넌트들에게 자동으로 전달됨) \*주의
-ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 여러 components를 렌더링 시 <> 으로 감싸주어야 한다.
+ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 여러 components를 렌더링 시 <></> 으로 감싸주어야 한다.
 
 - theme 조회 예시
 
@@ -243,9 +254,10 @@ ${(props) => {
 
 ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 AppBlock 과 Dialog components를 렌더링 시 <> 으로 감싸주어야 함
 
-4. keyframes
-   애니메이션에 대한 keyframes를 만들기 위해 사용되는 method이다.  
-   keyframes를 포함하고 있는 TaggedTemplateLiteral을 인자로 받아서 Keyframes model을 return해준다.
+#### 4. keyframes
+
+애니메이션에 대한 keyframes를 만들기 위해 사용되는 method이다.  
+ keyframes를 포함하고 있는 TaggedTemplateLiteral을 인자로 받아서 Keyframes model을 return해준다.
 
 다음 예시를 살펴보자.
 
@@ -338,7 +350,7 @@ const Block = styled.div`
 
 ## 마무리
 
-[styled-components 사용 예제 보러가기(codesandbox)](https://codesandbox.io/s/styled-components-practice-c6x4g?file=/src){:target="\_blank"}
+[styled-components 사용 예제 보러가기(codesandbox)](https://codesandbox.io/s/styled-components-practice-c6x4g?file=/src){:target="\_blank"}  
 (코드에 주석 달아놨습니다. 천천히 읽어보면 styled-components에 대해 잘 이해할 수 있을 겁니다.)
 
 # references
