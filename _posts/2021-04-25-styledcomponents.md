@@ -92,8 +92,9 @@ export default App;
 위 코드에서처럼 javascript 파일에서 스타일을 입력함과 동시에 해당 스타일을 가진 컴포넌트를 만들 수 있고,
 styled.input, styled.button과 같이 html tag들을 가지고 스타일링할 수 있다.
 
-- 화면
-  ![원](https://user-images.githubusercontent.com/59640337/115990955-042a6f00-a601-11eb-8dc7-be81b485686d.png)
+##### - 화면
+
+![원](https://user-images.githubusercontent.com/59640337/115990955-042a6f00-a601-11eb-8dc7-be81b485686d.png)
 
 ## API Reference
 
@@ -137,8 +138,9 @@ function App() {
 export default App;
 ```
 
-- 화면
-  ![버튼](https://user-images.githubusercontent.com/59640337/115990956-055b9c00-a601-11eb-8b6c-2f7007ec1490.png)
+##### - 화면
+
+![버튼](https://user-images.githubusercontent.com/59640337/115990956-055b9c00-a601-11eb-8b6c-2f7007ec1490.png)
 
 #### 2. css
 
@@ -210,8 +212,6 @@ styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이�
 - 예시  
   ![1212](https://user-images.githubusercontent.com/59640337/115991297-bc0c4c00-a602-11eb-99a8-d0733a8087aa.png)
 
-````
-
 ThemeProvider 컴포넌트의 theme props로 object를 전달하면 ThemeProvider 내부에 렌더링된 styled components에서 렌더링 된 조회하여 사용할 수 theme을theme prop가 내부에 prop이 렌더링 된 컴포넌트들에게 자동으로 전달됨) \*주의
 ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 여러 components를 렌더링 시 <></> 으로 감싸주어야 한다.
 
@@ -235,7 +235,7 @@ ${(props) => {
 }}
 /_ 기타 _/
 `;
-````
+```
 
 ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 하기 때문에 내부에 AppBlock 과 Dialog components를 렌더링 시 <> 으로 감싸주어야 함
 
