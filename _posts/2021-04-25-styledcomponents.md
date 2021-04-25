@@ -125,9 +125,9 @@ const RedButton = styled(Button)`
 function App() {
   return (
     <>
-      <Button>Default Button
+      <Button>Default Button</Button>
 
-      <RedButton>Red Button
+      <RedButton>Red Button</RedButton>
     </>
   );
 }
@@ -218,7 +218,7 @@ function App() {
         },
       }}
     >
-      BUTTON>
+      <Button>Button</Button>
     </ThemeProvider>
   );
 }
