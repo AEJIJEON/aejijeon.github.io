@@ -261,7 +261,7 @@ ThemeProvider 내부는 하나의 리액트 엘리먼트로 감싸져 있어야 
 
 다음 예시를 살펴보자.
 
-```jsx
+```javascript
 import styled from "styled-components";
 
 const FadeInButton = styled.button`
