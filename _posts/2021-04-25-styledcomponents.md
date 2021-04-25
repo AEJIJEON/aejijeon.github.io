@@ -82,7 +82,7 @@ const Circle = styled.div`
 `;
 
 function App() {
-  return;
+  return <Circle />;
 }
 
 export default App;
@@ -161,7 +161,7 @@ const Circle = styled.div`
 `;
 
 function App() {
-  return;
+  return <Circle />;
 }
 export default App;
 ```
@@ -195,7 +195,7 @@ const Circle = styled.div`
 `;
 
 function App() {
-  return;
+  return <Circle />;
 }
 export default App;
 ```
@@ -210,13 +210,13 @@ styled-components에서 제공하는 테마를 위한 (helper) 컴포넌트이�
 function App() {
   return (
     <ThemeProvider
-      theme={{
-        palette: {
-          blue: "#228be6",
-          gray: "#495057",
-          pink: "#f06595",
-        },
-      }}
+    // theme={{
+    //   palette: {
+    //     blue: "#228be6",
+    //     gray: "#495057",
+    //     pink: "#f06595",
+    //   },
+    // }}
     >
       <Button>Button</Button>
     </ThemeProvider>
@@ -275,7 +275,7 @@ const FadeInButton = styled.button`
 `;
 
 function App() {
-  return;
+  return <FadeInButton />;
 }
 export default App;
 ```
@@ -321,7 +321,7 @@ const FadeInButton = styled.button`
 `;
 
 function App() {
-  return;
+  return <FadeInButton />;
 }
 export default App;
 ```
