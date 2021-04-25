@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "styled-components"
+title: "styled-components 라이브러리"
 featured-img: styledcomponent
 categories: [styledcomponent]
 ---
@@ -330,7 +330,7 @@ export default App;
 
 ## 기타
 
-styled components 안에 있는 h3, p와 같은 태그들을 스타일링할 때 따로 따로 컴포넌트를 만들어서 스타일링 하지 않고 styled-components에서 Nested CSS 문법을 사용하여 따로따로 수 있다.
+styled components 안에 있는 h3, p와 같은 태그들을 스타일링할 때 따로 따로 컴포넌트를 만들어서 스타일링 하지 않고 styled-components에서 Nested CSS 문법을 사용할 수 있다.
 
 ```jsx
 const Block = styled.div`
