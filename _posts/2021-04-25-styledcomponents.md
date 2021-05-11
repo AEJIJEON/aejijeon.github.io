@@ -2,7 +2,7 @@
 layout: post
 title: "styled-components 라이브러리"
 featured-img: styledcomponent
-categories: [styledcomponent]
+categories: [studying]
 ---
 
 ## styled-components란?

@@ -3,4 +3,16 @@ layout: page
 title: Programming
 permalink: /programming/
 ---
+
 [Algorithm](http://aejijeon.github.io/programming/algorithm)
+
+<div>
+
+{% for post in site.categories.Programming %}
+
+  <article class="archive-item">
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+  </article>
+  {% endfor %}
+ 
+</div>
