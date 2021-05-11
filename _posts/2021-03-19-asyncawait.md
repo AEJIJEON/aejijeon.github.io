@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "async await(어싱크 어웨잇) 다루기"
+title: "[Javascript] async await(어싱크 어웨잇) 다루기"
 featured-img: asyncawait
-categories: [javascript]
+categories: [studying]
 ---
 
 ### async, await 개념 간단히 정리

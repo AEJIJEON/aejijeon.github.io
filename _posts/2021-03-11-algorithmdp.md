@@ -2,7 +2,7 @@
 layout: post
 title: "다이나믹 프로그래밍(Dynamic Programming)이란?"
 featured-img: dpdp
-categories: [Programming]
+categories: [algorithm]
 ---
 
 ## 다이나믹 프로그래밍(Dynamic Programming)이란?

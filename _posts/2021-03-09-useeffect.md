@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "useEffect in React"
+title: "[React] useEffect in React"
 featured-img: useEffect
-categories: [React]
+categories: [studying]
 ---
 
 ### 들어가며

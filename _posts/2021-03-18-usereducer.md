@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "useReducer Hook"
+title: "[React] useReducer Hook"
 featured-img: usereducer
-categories: [React]
+categories: [studying]
 ---
 
 ### 들어가며

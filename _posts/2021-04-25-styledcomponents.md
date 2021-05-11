@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "styled-components 라이브러리"
+title: "[styled-components] styled-components 라이브러리"
 featured-img: styledcomponent
 categories: [studying]
 ---
