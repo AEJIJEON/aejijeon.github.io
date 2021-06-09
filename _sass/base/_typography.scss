@@ -29,16 +29,16 @@ h5,
 h6 {
   color: $heading-color;
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 //reset link
 a {
   color: $link-color;
   text-decoration: none;
-  transition: all .2s linear;
-  border-bottom: 1px dashed $link-color;
-
+  transition: all 0.2s linear;
+  // border-bottom: 1px dashed $link-color;
+  border-bottom: none;
   &:active,
   &:focus {
     outline: 0;
@@ -47,7 +47,7 @@ a {
   &:hover,
   &:focus {
     color: $primary-light;
-    border-bottom: 1px solid $primary-light;
+    // border-bottom: 1px solid $primary-light;
   }
 }
 
