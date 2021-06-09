@@ -37,16 +37,16 @@ layout: compress
             {% endfor %}
 
             <!-- {% include pagination.html %} -->
-          </div> -->
+          
 
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
             {% for post in site.posts %}
-            <div>
+           
               <article class="archive-item">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
   </article>
-  </div>
+ 
             {% endfor %}
 
             <!-- {% include pagination.html %} -->
