@@ -42,12 +42,13 @@
   }
 
   a {
-    color: $heading-color;
-    font-weight: bold;
+    color: black;
+    font-weight: 600;
     border-bottom: 0;
+    text-decoration: none;
 
     svg {
-      transition: all .2s linear;
+      transition: all 0.2s linear;
     }
 
     &:hover {
