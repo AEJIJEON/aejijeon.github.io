@@ -45,8 +45,11 @@ layout: compress
            
               <article class="archive-item">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-           <span>
-          <time>{{ page.date | date_to_string }}</time>
+           <span class="post-date">
+          {{ post.date }}
+        </span>
+        <span class="post-category">
+          {{ post.categories}}
         </span>
         <span>
   </article>
