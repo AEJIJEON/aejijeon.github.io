@@ -23,13 +23,13 @@ social:
 navigation: # Navigation links
   - { name: "About", link: "/about" }
   - { name: "Studying", link: "/studying" }
-  - { name: "Programming", link: "/programming" }
+  - { name: "PS", link: "/ps" }
   - { name: "Til", link: "/til" }
 
 tagline: >
   I'm here to record what I study.
 hero_img: posts/brain_lg.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
-email: jeonaeji@gist.ac.kr # email for form submission
+email: wjsdowl666@gmail.com # email for form submission
 
 # twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 github_username: AEJIJEON # replace with your_github_username or comment to remove link from footer

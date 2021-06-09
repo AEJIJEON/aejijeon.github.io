@@ -1,12 +1,20 @@
 ---
 layout: page
-title: javascript
-permalink: /studying/javascript/
+title: PS
+permalink: /ps/
+---
+
+---
+
+layout: page
+title: Algorithm
+permalink: /programming/algorithm/
+
 ---
 
 <div>
 
-{% for post in site.categories.javascript %}
+{% for post in site.categories.algorithm %}
 
   <article class="archive-item">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
