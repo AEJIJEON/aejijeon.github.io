@@ -2,7 +2,7 @@
 title: 애지ZONE # your site title
 author: aeji, JEON # You :P
 description: > # Meta description of Homepage
-https://aejijeon.github.io
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aejijeon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 theme: jekyll-sleek
