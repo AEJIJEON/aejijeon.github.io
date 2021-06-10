@@ -347,30 +347,30 @@ pre > code {
 }
 .container {
   padding: 0 20px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 100%;
 }
 @media only screen and (min-width: 36em) {
   .container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 540px;
   }
 }
 @media only screen and (min-width: 48em) {
   .container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 720px;
   }
 }
 @media only screen and (min-width: 62em) {
   .container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 960px;
   }
 }
 @media only screen and (min-width: 75em) {
   .container {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 1170px;
   }
 }
@@ -433,13 +433,14 @@ pre > code {
   border-bottom: 0;
 }
 .header__logo .header__logo--container {
-  width: 58px;
+  display: inline-block;
+  /* width: 58px; */
 }
 .header__logo .header__logo--container .logo {
   fill: currentColor;
 }
 .header-container {
-  margin-right: 0%;
+  margin-right: 0;
 }
 .header__inner {
   display: -webkit-box;
