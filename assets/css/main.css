@@ -353,25 +353,25 @@ pre > code {
 @media only screen and (min-width: 36em) {
   .container {
     /* margin: 0 auto; */
-    max-width: 540px;
+    /* max-width: 540px; */
   }
 }
 @media only screen and (min-width: 48em) {
   .container {
     /* margin: 0 auto; */
-    max-width: 720px;
+    /* max-width: 720px; */
   }
 }
 @media only screen and (min-width: 62em) {
   .container {
     /* margin: 0 auto; */
-    max-width: 960px;
+    /* max-width: 960px; */
   }
 }
 @media only screen and (min-width: 75em) {
   .container {
     /* margin: 0 auto; */
-    max-width: 1170px;
+    /* max-width: 1170px; */
   }
 }
 .header {
