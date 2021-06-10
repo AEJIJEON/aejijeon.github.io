@@ -4,12 +4,11 @@ title: PS
 permalink: /ps/
 ---
 
-<style>
+   <style>
      .post-link {
-  /* color: black;
-  font-size: 23px;
+  color: black;
+  font-size: 20px;
   font-weight: 600;
-  font-family: Ubuntu; */
   text-decoration: none;
 }
 .post-link:hover{
@@ -18,18 +17,15 @@ permalink: /ps/
 .post-date {
   color: #aaa;
   font-weight: normal;
- 
   margin-right: 15px;
 }
 .post-category{
   color: #aaa;
 }
 .archive-item {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
-/* .archive-item:nth-child(1){
-  margin-top: 30px;
-} */
+
 
    </style>
 <div>
