@@ -438,6 +438,9 @@ pre > code {
 .header__logo .header__logo--container .logo {
   fill: currentColor;
 }
+.header-container {
+  margin-right: 0%;
+}
 .header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
