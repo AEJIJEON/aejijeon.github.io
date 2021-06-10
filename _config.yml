@@ -25,9 +25,9 @@ navigation: # Navigation links
   - { name: "Studying", link: "/studying" }
   - { name: "PS", link: "/ps" }
   - { name: "Til", link: "/til" }
-
+# tagline: > 밑에 블로그 설명 작성!
 tagline: >
-  # I'm here to record what I study.
+
 hero_img: posts/brain_lg.png # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 email: wjsdowl666@gmail.com # email for form submission
 
