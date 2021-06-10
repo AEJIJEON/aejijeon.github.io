@@ -29,7 +29,9 @@ permalink: /ps/
 
    </style>
 <div>
-
+<p>
+              {{site.categories.ps.size}} posts
+            </p>
 {% for post in site.categories.ps %}
 
   <article class="archive-item">

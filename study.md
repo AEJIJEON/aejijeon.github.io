@@ -29,7 +29,9 @@ permalink: /studying/
 
    </style>
 <div>
-
+<p>
+              {{site.categories.studying.size}} posts
+            </p>
 {% for post in site.categories.studying %}
 
   <article class="archive-item">
