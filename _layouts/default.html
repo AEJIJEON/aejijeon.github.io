@@ -7,7 +7,7 @@ layout: compress
   {% include head.html %}
 
   <body class="site">
-
+    <link rel="stylesheet" href="css/default.css">
     {% if site.google_tag_manager %}
 
       <!-- Google Tag Manager (noscript) -->
@@ -46,10 +46,10 @@ layout: compress
               <article class="archive-item">
     <h4><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
            <span class="post-date">
-          {{ post.dat.split(' ')[0] }}
+          {{ post.date.split(' ')[0] }}
         </span>
         <span class="post-category">
-          {{ "#" + post.categories}}
+          {{ post.categories}}
         </span>
         <span>
   </article>
