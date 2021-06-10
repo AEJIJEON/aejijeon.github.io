@@ -7,7 +7,27 @@ layout: compress
   {% include head.html %}
 
   <body class="site">
-    <link rel="stylesheet" href="css/default.css">
+    <!-- <link rel="stylesheet" href="css/default.css"> -->
+   <style>
+     .post-link {
+  color: black;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Ubuntu;
+  text-decoration: none;
+}
+
+.post-date {
+  color: #aaa;
+  font-weight: normal;
+  font-family: Ubuntu;
+  margin-right: 15px;
+}
+.archive-item {
+  margin-bottom: 50px;
+}
+
+   </style>
     {% if site.google_tag_manager %}
 
       <!-- Google Tag Manager (noscript) -->
@@ -46,7 +66,7 @@ layout: compress
               <article class="archive-item">
     <h4><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
            <span class="post-date">
-          {{ post.date.split(' ')[0] }}
+          {{ post.date }}
         </span>
         <span class="post-category">
           {{ post.categories}}
