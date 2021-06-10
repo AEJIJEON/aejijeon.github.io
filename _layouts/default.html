@@ -23,6 +23,9 @@ layout: compress
   font-family: Ubuntu;
   margin-right: 15px;
 }
+.post-category{
+  color: #aaa;
+}
 .archive-item {
   margin-bottom: 50px;
 }
@@ -66,9 +69,11 @@ layout: compress
               <article class="archive-item">
     <h4><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
            <span class="post-date">
-          {{ post.date }}
+             <time>{{ post.date | date_to_string }}</time>&nbsp;
+          <!-- {{ post.date }} -->
         </span>
         <span class="post-category">
+          #
           {{ post.categories}}
         </span>
         <span>
