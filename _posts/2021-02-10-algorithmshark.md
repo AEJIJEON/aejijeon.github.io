@@ -3,7 +3,7 @@ layout: post
 title: "DFS/BFS를 이용한 완전 탐색 with 청소년 상어 문제"
 featured-img: shark-3068590_1280
 
-categories: [algorithm]
+categories: [ps]
 ---
 
 #### 들어가며

@@ -2,7 +2,7 @@
 layout: post
 title: "[백준 2887]행성 터널"
 featured-img: planet
-categories: [algorithm]
+categories: [ps]
 ---
 
 [문제 보러 가기(Baekjoon Online Judge)](https://www.acmicpc.net/problem/2887){:target="\_blank"}

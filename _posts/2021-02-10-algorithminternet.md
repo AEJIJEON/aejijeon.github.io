@@ -2,7 +2,7 @@
 layout: post
 title: "binary search와 dijkstra algorithm의 만남 with 인터넷 설치 문제"
 featured-img: webdesign-3411373_1920
-categories: [algorithm]
+categories: [ps]
 ---
 
 이번에 가져온 인터넷 설치 문제는 다익스트라 알고리즘과 이진 탐색 유형이 동시에 사용되는 문제이다. 이러한 두 유형이 동시 적용이 됐을 거라고는 상상도 못 했다.  

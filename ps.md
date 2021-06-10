@@ -6,7 +6,7 @@ permalink: /ps/
 
 <div>
 
-{% for post in site.categories.algorithm %}
+{% for post in site.categories.ps %}
 
   <article class="archive-item">
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>

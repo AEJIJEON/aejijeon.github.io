@@ -2,7 +2,7 @@
 layout: post
 title: "Parametric Search applied to Binary Search"
 featured-img: search-1013911_1920
-categories: [algorithm]
+categories: [ps]
 ---
 
 알고리즘의 이진 탐색(binary search) 유형에서 파라메트릭 서치(parametric search)를 사용하여 풀 수 있는 문제들이 자주 등장한다. 파라메트릭 서치는 최적화 문제를 결정 문제로 바꾸어 해결하는 기법으로, 주로 이진 탐색으로 결정 문제를 해결하면서 범위를 좁혀 나가는 방식을 통해 문제를 해결한다.  

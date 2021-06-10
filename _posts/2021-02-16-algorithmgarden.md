@@ -2,7 +2,7 @@
 layout: post
 title: "[백준 2457]Greedy Algorithm을 이용한 공주님의 정원 문제"
 featured-img: garden
-categories: [algorithm]
+categories: [ps]
 ---
 
 백준 2457번 **공주님의 정원** 문제 입니다.
