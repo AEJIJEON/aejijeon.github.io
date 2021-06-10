@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PS
+title: Problem Solving
 permalink: /ps/
 ---
 
