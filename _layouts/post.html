@@ -26,7 +26,7 @@ layout: compress
   {% endif %} -->
   <div class="hero--small">
     <div class="hero__wrap">
-      {% if post.categories or page.categories %}
+      <!-- {% if post.categories or page.categories %}
         <div class="hero__categories">
           {% if post %}
             {% assign categories = post.categories %}
@@ -38,9 +38,22 @@ layout: compress
             {% unless forloop.last %}&nbsp;{% endunless %}
           {% endfor %}
         </div>
-      {% endif %}
+      {% endif %} -->
       <h1 class="hero__title">{{ page.title }}</h1>
       <p class="hero__meta">
+        {% if post.categories or page.categories %}
+        <span class="hero__categories">
+          {% if post %}
+            {% assign categories = post.categories %}
+          {% else %}
+            {% assign categories = page.categories %}
+          {% endif %}
+          {% for category in categories %}
+            <a class="label" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+          {% endfor %}
+        </span>
+      {% endif %}
         <span>
           <time>{{ page.date | date_to_string }}</time>&nbsp;&middot;
         </span>

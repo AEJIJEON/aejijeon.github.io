@@ -57,11 +57,11 @@
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
   width: 100%;
-  max-width: 90%;
+  // max-width: 90%;
   z-index: 1;
 
   @include breakpoint($md) {
-    max-width: 80em;
+    // max-width: 80em;
   }
 
   .hero__title {
