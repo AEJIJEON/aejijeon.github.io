@@ -61,7 +61,7 @@
   z-index: 1;
 
   @include breakpoint($md) {
-    max-width: 40em;
+    max-width: 80em;
   }
 
   .hero__title {
