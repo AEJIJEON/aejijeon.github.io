@@ -8,7 +8,7 @@ permalink: /studying/
      .post-link {
   color: black;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
 }
 .post-link:hover{
