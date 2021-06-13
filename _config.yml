@@ -5,7 +5,7 @@ description: > # Meta description of Homepage
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aejijeon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-theme: jekyll-sleek
+# theme: jekyll-sleek
 # SEO PLUGIN
 social:
   name: aeji, JEON
